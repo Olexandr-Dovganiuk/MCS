@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Decoder.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="My2To4Decoder.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="My2To4Decoder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_IBS" xil_pn:name="My2To4Decoder.ibs"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="My2To4Decoder.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PIN2UCF_REPORT" xil_pn:name="My2To4Decoder.lck"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="My2To4Decoder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="My2To4Decoder.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="My2To4Decoder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="My2To4Decoder.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="My2To4Decoder.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="My2To4Decoder.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="My2To4Decoder.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="My2To4Decoder.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="My2To4Decoder.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="My2To4Decoder.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_POWER_REPORT" xil_pn:name="My2To4Decoder.pwr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="My2To4Decoder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="My2To4Decoder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="My2To4Decoder.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="My2To4Decoder.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="My2To4Decoder.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="My2To4Decoder.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="My2To4Decoder.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="My2To4Decoder.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="My2To4Decoder.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="My2To4Decoder_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="My2To4Decoder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="My2To4Decoder_fpga_editor.log"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="My2To4Decoder_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="My2To4Decoder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="My2To4Decoder_isim_beh.wdb"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="My2To4Decoder_isim_par.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="My2To4Decoder_isim_par.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="My2To4Decoder_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="My2To4Decoder_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="My2To4Decoder_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="My2To4Decoder_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="My2To4Decoder_map.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="My2To4Decoder_map_fpga_editor.log"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="My2To4Decoder_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="My2To4Decoder_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="My2To4Decoder_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="My2To4Decoder_par.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="My2To4Decoder_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="My2To4Decoder_preroute.twr" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="My2To4Decoder_preroute.twx" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="My2To4Decoder_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="My2To4Decoder_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="My2To4Decoder_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="My2To4Decoder_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="My2To4Decoder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xpwr.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="my2to4decoder.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_BIN" xil_pn:name="my2to4decoder.bin"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="my2to4decoder.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="my2to4decoder.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/map/My2To4Decoder_map.nlf"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/map/My2To4Decoder_map.sdf"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/map/My2To4Decoder_map.vhd"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/My2To4Decoder_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/My2To4Decoder_timesim.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/par/My2To4Decoder_timesim.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/My2To4Decoder_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/My2To4Decoder_synthesis.vhd"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/translate/My2To4Decoder_translate.nlf"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/translate/My2To4Decoder_translate.vhd"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1679396855" xil_pn:name="TRANEXT_compLibraries_FPGA" xil_pn:prop_ck="-9208587560238040439" xil_pn:start_ts="1679396855">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679945629" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1679945628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679945629" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1679945629">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679945629" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3700587437710226645" xil_pn:start_ts="1679945629">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679945632" xil_pn:in_ck="-1205361194894125775" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7989163419182877901" xil_pn:start_ts="1679945629">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My2To4Decoder.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1679945632" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1291207749867513569" xil_pn:start_ts="1679945632">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679945632" xil_pn:in_ck="-1205361194894122345" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1679945632">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My2To4Decoder.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1679945644" xil_pn:in_ck="-1205361194894122345" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5018384979375303452" xil_pn:start_ts="1679945632">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder_beh.prj"/>
+      <outfile xil_pn:name="My2To4Decoder_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1679945645" xil_pn:in_ck="2044808176648412948" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1630676873593711759" xil_pn:start_ts="1679945644">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396536" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1679396535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397761" xil_pn:in_ck="-1205361194894125775" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6687865486474863187" xil_pn:start_ts="1679397756">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My2To4Decoder.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396539" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1291207749867513569" xil_pn:start_ts="1679396539">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396539" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1679396539">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396539" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3700587437710226645" xil_pn:start_ts="1679396539">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396539" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1430049303116325842" xil_pn:start_ts="1679396539">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396539" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7494757826539034473" xil_pn:start_ts="1679396539">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397782" xil_pn:in_ck="-1205361194894122345" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8871073076718791103" xil_pn:start_ts="1679397761">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder.jhd"/>
+      <outfile xil_pn:name="My2To4Decoder.lso"/>
+      <outfile xil_pn:name="My2To4Decoder.ngc"/>
+      <outfile xil_pn:name="My2To4Decoder.ngr"/>
+      <outfile xil_pn:name="My2To4Decoder.prj"/>
+      <outfile xil_pn:name="My2To4Decoder.stx"/>
+      <outfile xil_pn:name="My2To4Decoder.syr"/>
+      <outfile xil_pn:name="My2To4Decoder.xst"/>
+      <outfile xil_pn:name="My2To4Decoder_beh.prj"/>
+      <outfile xil_pn:name="My2To4Decoder_vhdl.prj"/>
+      <outfile xil_pn:name="My2To4Decoder_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396955" xil_pn:in_ck="-1016329286083947751" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2867175238502804057" xil_pn:start_ts="1679396955">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397795" xil_pn:in_ck="-8487794031376922460" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="324517699088890422" xil_pn:start_ts="1679397782">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My2To4Decoder.bld"/>
+      <outfile xil_pn:name="My2To4Decoder.ngd"/>
+      <outfile xil_pn:name="My2To4Decoder_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397808" xil_pn:in_ck="-8487794031376922459" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6301418164239633844" xil_pn:start_ts="1679397795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder.pcf"/>
+      <outfile xil_pn:name="My2To4Decoder_map.map"/>
+      <outfile xil_pn:name="My2To4Decoder_map.mrp"/>
+      <outfile xil_pn:name="My2To4Decoder_map.ncd"/>
+      <outfile xil_pn:name="My2To4Decoder_map.ngm"/>
+      <outfile xil_pn:name="My2To4Decoder_map.xrpt"/>
+      <outfile xil_pn:name="My2To4Decoder_summary.xml"/>
+      <outfile xil_pn:name="My2To4Decoder_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397824" xil_pn:in_ck="99962700273787454" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-7315222464170770773" xil_pn:start_ts="1679397808">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My2To4Decoder.ncd"/>
+      <outfile xil_pn:name="My2To4Decoder.pad"/>
+      <outfile xil_pn:name="My2To4Decoder.par"/>
+      <outfile xil_pn:name="My2To4Decoder.ptwx"/>
+      <outfile xil_pn:name="My2To4Decoder.unroutes"/>
+      <outfile xil_pn:name="My2To4Decoder.xpi"/>
+      <outfile xil_pn:name="My2To4Decoder_pad.csv"/>
+      <outfile xil_pn:name="My2To4Decoder_pad.txt"/>
+      <outfile xil_pn:name="My2To4Decoder_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397838" xil_pn:in_ck="-1205361194894131224" xil_pn:name="TRANEXT_bitFile_spartan3a" xil_pn:prop_ck="1406129783654645690" xil_pn:start_ts="1679397824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My2To4Decoder.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="my2to4decoder.bgn"/>
+      <outfile xil_pn:name="my2to4decoder.bin"/>
+      <outfile xil_pn:name="my2to4decoder.bit"/>
+      <outfile xil_pn:name="my2to4decoder.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396947" xil_pn:in_ck="-8487794031376922591" xil_pn:name="TRAN_backAnnoPinLocations" xil_pn:prop_ck="-1016329286083947751" xil_pn:start_ts="1679396943">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder.lck"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397872" xil_pn:in_ck="-1205361194894131224" xil_pn:name="TRAN_postParSimModel" xil_pn:prop_ck="4476672905276541894" xil_pn:start_ts="1679397866">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/par/My2To4Decoder_timesim.nlf"/>
+      <outfile xil_pn:name="netgen/par/My2To4Decoder_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/My2To4Decoder_timesim.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397928" xil_pn:in_ck="8514818135476921431" xil_pn:name="TRAN_copyPost-ParAbstractToPreSimulation" xil_pn:start_ts="1679397928">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen/par/My2To4Decoder_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/My2To4Decoder_timesim.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397946" xil_pn:in_ck="-609754213865863026" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModelRunFuse" xil_pn:prop_ck="-7150901383500457586" xil_pn:start_ts="1679397928">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder_isim_par.exe"/>
+      <outfile xil_pn:name="My2To4Decoder_par.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1679398257" xil_pn:in_ck="2044808194584282152" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModel" xil_pn:prop_ck="-3468651663619790092" xil_pn:start_ts="1679398256">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder_isim_par.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397065" xil_pn:in_ck="-1205361194894131224" xil_pn:name="TRAN_createIBISModel" xil_pn:prop_ck="4477028947124287514" xil_pn:start_ts="1679397061">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder.ibs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397055" xil_pn:in_ck="-1205361194894131224" xil_pn:name="TRAN_genPowerData" xil_pn:prop_ck="5490861046259921698" xil_pn:start_ts="1679397050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder.pwr"/>
+      <outfile xil_pn:name="_xmsgs/xpwr.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397824" xil_pn:in_ck="-8487794031376922591" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1679397818">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My2To4Decoder.twr"/>
+      <outfile xil_pn:name="My2To4Decoder.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397864" xil_pn:in_ck="-6508592129181047419" xil_pn:name="TRAN_postMapSimModel" xil_pn:prop_ck="-6966614408798970388" xil_pn:start_ts="1679397857">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/map/My2To4Decoder_map.nlf"/>
+      <outfile xil_pn:name="netgen/map/My2To4Decoder_map.sdf"/>
+      <outfile xil_pn:name="netgen/map/My2To4Decoder_map.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396626" xil_pn:in_ck="7143920934541968473" xil_pn:name="TRAN_copyPost-MapAbstractToPreSimulation" xil_pn:start_ts="1679396626">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="netgen/map/My2To4Decoder_map.sdf"/>
+      <outfile xil_pn:name="netgen/map/My2To4Decoder_map.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397855" xil_pn:in_ck="99962700273787454" xil_pn:name="TRAN_preRouteTrce" xil_pn:prop_ck="722859607460791355" xil_pn:start_ts="1679397850">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My2To4Decoder_preroute.twr"/>
+      <outfile xil_pn:name="My2To4Decoder_preroute.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397849" xil_pn:in_ck="-1205361194894131092" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="-8330794516032384806" xil_pn:start_ts="1679397846">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/translate/My2To4Decoder_translate.nlf"/>
+      <outfile xil_pn:name="netgen/translate/My2To4Decoder_translate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1679396693" xil_pn:in_ck="-6901022100439904273" xil_pn:name="TRAN_copyPost-TranslateAbstractToPreSimulation" xil_pn:start_ts="1679396691">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="netgen/translate/My2To4Decoder_translate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1679397845" xil_pn:in_ck="-1205361194894131093" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-8772909391437210081" xil_pn:start_ts="1679397841">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/synthesis/My2To4Decoder_synthesis.nlf"/>
+      <outfile xil_pn:name="netgen/synthesis/My2To4Decoder_synthesis.vhd"/>
+    </transform>
+  </transforms>
+
+</generated_project>
