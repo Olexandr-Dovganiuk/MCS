@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/Sania/Desktop/New folder/My2To4Decoder_isim_beh.exe" -prj "C:/Users/Sania/Desktop/New folder/My2To4Decoder_beh.prj" "work.My2To4Decoder" 

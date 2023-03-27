@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\Sania\Desktop\New folder\My2To4Decoder.ncd
-OUTFILE=C:\Users\Sania\Desktop\New folder\My2To4Decoder.bit
-FAMILY=Spartan3A and Spartan3AN
-PART=xc3s50a-5tq144
-WORKINGDIR=C:\Users\Sania\Desktop\New folder
-LICENSE=WebPack
-USER_INFO=211628586_0_0_017
