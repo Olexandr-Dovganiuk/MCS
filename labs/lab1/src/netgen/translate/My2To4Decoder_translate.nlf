@@ -1,0 +1,20 @@
+Release 14.7 - netgen P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm
+My2To4Decoder -w -dir netgen/translate -ofmt vhdl -sim My2To4Decoder.ngd
+My2To4Decoder_translate.vhd  
+
+Reading design 'My2To4Decoder.ngd' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist 'C:\Users\Sania\Desktop\New
+folder\netgen\translate\My2To4Decoder_translate.vhd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 136444 kilobytes

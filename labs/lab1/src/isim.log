@@ -1,0 +1,56 @@
+ISim log file
+Running: C:\Users\Sania\Desktop\New folder\My2To4Decoder_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Sania/Desktop/New folder/My2To4Decoder_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# isim force add /my2to4decoder/in_0 0 -radix bin
+# isim force add /my2to4decoder/in_0 0 -radix bin
+# isim force add /my2to4decoder/in_1 0 -radix bin
+# isim force add /my2to4decoder/in_1 0 -radix bin
+# isim force add /my2to4decoder/in_2 0 -radix bin
+# isim force add /my2to4decoder/in_2 0 -radix bin
+# run 1.00ps
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /my2to4decoder/in_0 1 -radix bin
+# isim force add /my2to4decoder/in_0 1 -radix bin
+# run 1.00ps
+# isim force add /my2to4decoder/in_0 0 -radix bin
+# isim force add /my2to4decoder/in_0 0 -radix bin
+# isim force add /my2to4decoder/in_1 1 -radix bin
+# isim force add /my2to4decoder/in_1 1 -radix bin
+# run 1.00ps
+# isim force add /my2to4decoder/in_0 1 -radix bin
+# isim force add /my2to4decoder/in_0 1 -radix bin
+# run 1.00ps
+# isim force add /my2to4decoder/in_2 1 -radix bin
+# isim force add /my2to4decoder/in_2 1 -radix bin
+# isim force add /my2to4decoder/in_1 0 -radix bin
+# isim force add /my2to4decoder/in_1 0 -radix bin
+# isim force add /my2to4decoder/in_0 0 -radix bin
+# isim force add /my2to4decoder/in_0 0 -radix bin
+# run 1.00ps
+# isim force add /my2to4decoder/in_0 1 -radix bin
+# isim force add /my2to4decoder/in_0 1 -radix bin
+# run 1.00ps
+# isim force add /my2to4decoder/in_0 0 -radix bin
+# isim force add /my2to4decoder/in_0 0 -radix bin
+# show driver /my2to4decoder/in_1
+/my2to4decoder/in_1 has no drivers.
+# show driver /my2to4decoder/in_1
+/my2to4decoder/in_1 has no drivers.
+# isim force add /my2to4decoder/in_1 1 -radix bin
+# isim force add /my2to4decoder/in_1 1 -radix bin
+# run 1.00ps
+# isim force add /my2to4decoder/in_0 1 -radix bin
+# isim force add /my2to4decoder/in_0 1 -radix bin
+# run 1.00ps
