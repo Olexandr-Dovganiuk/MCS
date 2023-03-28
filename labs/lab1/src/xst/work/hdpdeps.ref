@@ -1,9 +1,0 @@
-V3 7
-FL "C:/Users/Sania/Desktop/New folder/My2To4Decoder.vhf" 2023/03/21.13:22:40 P.20131013
-EN work/My2To4Decoder 1679397770 \
-      FL "C:/Users/Sania/Desktop/New folder/My2To4Decoder.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/My2To4Decoder/BEHAVIORAL 1679397771 \
-      FL "C:/Users/Sania/Desktop/New folder/My2To4Decoder.vhf" \
-      EN work/My2To4Decoder 1679397770 CP AND3B1 CP AND3B3 CP AND3B2
